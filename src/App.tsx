@@ -1,11 +1,12 @@
-
-import "./scss/app.scss"
 import Footer from "./components/footer";
+import Main from "./Main";
+import "./scss/app.scss"
+
 
 function App() {
   return (
     <div className="App">
-     App
+     <Main/>
 <Footer/>
     </div>
   );
