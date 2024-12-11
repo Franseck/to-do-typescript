@@ -6,8 +6,7 @@ import TodoList from "./components/todo/TodoList"
 const Main = () => {
   return (
     <div>
-
-    <TodoCreate/>
+   <TodoCreate/>
     <TodoList/>
     </div>
   )
