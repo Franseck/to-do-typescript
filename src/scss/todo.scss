@@ -7,16 +7,22 @@
     flex-direction: column;
 align-items: flex-end;
     margin-top: 1.2rem;
+
 }
 
 .todo-input {
  width: 80%;
-    height: 2rem;
+ outline: none;
+    height: 2.3rem;
        border: 1px solid ;
        border-radius: 0.3rem;
     background-color: #37666b;
 margin-right:2rem ;
     color: $October-4-hex;
+    font-family: "Nothing You Could Do";
+    font-size: 1.2rem;
+    font-weight: 800;
+    text-align: center;
 }
 .todo-create-button {
     padding: 5px 10px;
@@ -37,6 +43,7 @@ margin-right:2rem ;
     background-color: $Teals-4;
     padding: 1rem;
     border-radius: 5px;
+    font-family: "The Girl Next Door";
 }
 .icons {
     font-size: 1.2rem;
@@ -44,4 +51,11 @@ margin-right:2rem ;
     gap: 8px;
     cursor: pointer;
     color: $Teals-2;
+}
+.update {
+  padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: $Teals-2;
+    font-family: "Special Elite";
+    font-size: 1rem;
 }

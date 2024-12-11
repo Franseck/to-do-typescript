@@ -29,7 +29,7 @@ const handleUpdateTodo =()=>{
 
   return (
     <div className="todo">
-        {edit ? <input type="text" value={newTodo} onChange={(e: React.ChangeEvent<HTMLInputElement>)=> setNewTodo(e.target.value)} /> :
+        {edit ? <input type="text" value={newTodo} className="update" onChange={(e: React.ChangeEvent<HTMLInputElement>)=> setNewTodo(e.target.value)} /> :
         <div>{content}</div>}
 
 <div className="icons">
