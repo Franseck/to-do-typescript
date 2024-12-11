@@ -1,1 +1,23 @@
 @import "variables";
+
+
+.head{
+    position:absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 1rem;
+}
+
+h1{
+  font-family: "Wallpoet";
+
+}
+
+img{
+    width: 8rem;
+    border-radius: 10px;
+    border:3px solid  $October-4-hex;
+}

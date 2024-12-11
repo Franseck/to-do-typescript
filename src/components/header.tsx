@@ -1,9 +1,15 @@
-import React from 'react'
+import logo from "../assets/Logo.png"
+import "../scss/header.scss"
 
-const header = () => {
+const Header = () => {
   return (
-    <div>header</div>
+    <div className="head">
+      <img src={logo} alt="" />
+      <h1>Task Control System</h1>
+    
+</div>
+
   )
 }
 
-export default header
+export default Header

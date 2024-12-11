@@ -10,12 +10,12 @@ align-items: flex-end;
 }
 
 .todo-input {
-    width: 70%;
+ width: 80%;
     height: 2rem;
        border: 1px solid ;
        border-radius: 0.3rem;
     background-color: #37666b;
-    outline: none;
+margin-right:2rem ;
     color: $October-4-hex;
 }
 .todo-create-button {
@@ -25,6 +25,7 @@ align-items: flex-end;
     background-color: $Teals-5;
     cursor: pointer;
     margin-top: 1rem;
+    margin-right: 2rem;
 }
 .todo{
     display: flex;
